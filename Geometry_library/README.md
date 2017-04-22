@@ -1,5 +1,5 @@
 # Geometry_library
-Simple C++ header only library for computational geometry problems
+Simple C++ header only library for computational geometry problems.
 
 Just Copy the GeomLib folder into your project and include GeomHeader.h
 
