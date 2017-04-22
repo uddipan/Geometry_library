@@ -12,6 +12,8 @@
 		CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF31EABC7B80087F261 /* GLUT.framework */; };
 		CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF41EABC7B80087F261 /* OpenGL.framework */; };
 		CF335EFF1EABCC840087F261 /* polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335EFD1EABCC840087F261 /* polygon.cpp */; };
+		CF335F0B1EABD92E0087F261 /* polygon_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F0A1EABD92E0087F261 /* polygon_test.cpp */; };
+		CF335F131EABDFA70087F261 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335F121EABDFA70087F261 /* gtest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,17 @@
 		CF335EFB1EABC80D0087F261 /* Vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec3.h; sourceTree = "<group>"; };
 		CF335EFD1EABCC840087F261 /* polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon.cpp; sourceTree = "<group>"; };
 		CF335EFE1EABCC840087F261 /* polygon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = polygon.hpp; sourceTree = "<group>"; };
+		CF335F011EABD8960087F261 /* .localized */ = {isa = PBXFileReference; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
+		CF335F031EABD8960087F261 /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+		CF335F041EABD8960087F261 /* Practical_Electronics_for_Inventors.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Practical_Electronics_for_Inventors.pdf; sourceTree = "<group>"; };
+		CF335F051EABD8960087F261 /* uddipanmukherjee.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = uddipanmukherjee.p12; sourceTree = "<group>"; };
+		CF335F061EABD8E20087F261 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../../Library/Frameworks/gtest.framework; sourceTree = "<group>"; };
+		CF335F0A1EABD92E0087F261 /* polygon_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon_test.cpp; sourceTree = "<group>"; };
+		CF335F0D1EABDEFF0087F261 /* .localized */ = {isa = PBXFileReference; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
+		CF335F0F1EABDEFF0087F261 /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+		CF335F101EABDEFF0087F261 /* Practical_Electronics_for_Inventors.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Practical_Electronics_for_Inventors.pdf; sourceTree = "<group>"; };
+		CF335F111EABDEFF0087F261 /* uddipanmukherjee.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = uddipanmukherjee.p12; sourceTree = "<group>"; };
+		CF335F121EABDFA70087F261 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../gtest/gtest.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF335F131EABDFA70087F261 /* gtest.framework in Frameworks */,
 				CF335EF51EABC7B80087F261 /* Cocoa.framework in Frameworks */,
 				CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */,
 				CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */,
@@ -77,6 +91,7 @@
 				CF335EEA1EABC79D0087F261 /* main.cpp */,
 				CF335EFD1EABCC840087F261 /* polygon.cpp */,
 				CF335EFE1EABCC840087F261 /* polygon.hpp */,
+				CF335F0A1EABD92E0087F261 /* polygon_test.cpp */,
 			);
 			path = geometry_library;
 			sourceTree = "<group>";
@@ -84,6 +99,10 @@
 		CF335EF11EABC7B70087F261 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF335F121EABDFA70087F261 /* gtest.framework */,
+				CF335F0C1EABDEFF0087F261 /* Documents */,
+				CF335F061EABD8E20087F261 /* gtest.framework */,
+				CF335F001EABD8960087F261 /* Documents */,
 				CF335EF21EABC7B80087F261 /* Cocoa.framework */,
 				CF335EF31EABC7B80087F261 /* GLUT.framework */,
 				CF335EF41EABC7B80087F261 /* OpenGL.framework */,
@@ -99,6 +118,46 @@
 				CF335EFB1EABC80D0087F261 /* Vec3.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		CF335F001EABD8960087F261 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				CF335F011EABD8960087F261 /* .localized */,
+				CF335F021EABD8960087F261 /* MATLAB */,
+				CF335F041EABD8960087F261 /* Practical_Electronics_for_Inventors.pdf */,
+				CF335F051EABD8960087F261 /* uddipanmukherjee.p12 */,
+			);
+			name = Documents;
+			path = ../../../Users/uddipan/Documents;
+			sourceTree = "<group>";
+		};
+		CF335F021EABD8960087F261 /* MATLAB */ = {
+			isa = PBXGroup;
+			children = (
+				CF335F031EABD8960087F261 /* test2.m */,
+			);
+			path = MATLAB;
+			sourceTree = "<group>";
+		};
+		CF335F0C1EABDEFF0087F261 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				CF335F0D1EABDEFF0087F261 /* .localized */,
+				CF335F0E1EABDEFF0087F261 /* MATLAB */,
+				CF335F101EABDEFF0087F261 /* Practical_Electronics_for_Inventors.pdf */,
+				CF335F111EABDEFF0087F261 /* uddipanmukherjee.p12 */,
+			);
+			name = Documents;
+			path = ../../../Users/uddipan/Documents;
+			sourceTree = "<group>";
+		};
+		CF335F0E1EABDEFF0087F261 /* MATLAB */ = {
+			isa = PBXGroup;
+			children = (
+				CF335F0F1EABDEFF0087F261 /* test2.m */,
+			);
+			path = MATLAB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF335EEB1EABC79D0087F261 /* main.cpp in Sources */,
+				CF335F0B1EABD92E0087F261 /* polygon_test.cpp in Sources */,
 				CF335EFF1EABCC840087F261 /* polygon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +316,13 @@
 		CF335EEF1EABC79D0087F261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = /academics/gtest/googletest/googletest/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -263,6 +330,14 @@
 		CF335EF01EABC79D0087F261 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = /academics/gtest/googletest/googletest/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
