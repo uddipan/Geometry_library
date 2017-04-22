@@ -11,6 +11,7 @@
 		CF335EF51EABC7B80087F261 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF21EABC7B80087F261 /* Cocoa.framework */; };
 		CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF31EABC7B80087F261 /* GLUT.framework */; };
 		CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF41EABC7B80087F261 /* OpenGL.framework */; };
+		CF335EFF1EABCC840087F261 /* polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335EFD1EABCC840087F261 /* polygon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		CF335EF91EABC80D0087F261 /* Geomheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geomheader.h; sourceTree = "<group>"; };
 		CF335EFA1EABC80D0087F261 /* Vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec2.h; sourceTree = "<group>"; };
 		CF335EFB1EABC80D0087F261 /* Vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec3.h; sourceTree = "<group>"; };
+		CF335EFD1EABCC840087F261 /* polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon.cpp; sourceTree = "<group>"; };
+		CF335EFE1EABCC840087F261 /* polygon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = polygon.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 			children = (
 				CF335EF81EABC80D0087F261 /* include */,
 				CF335EEA1EABC79D0087F261 /* main.cpp */,
+				CF335EFD1EABCC840087F261 /* polygon.cpp */,
+				CF335EFE1EABCC840087F261 /* polygon.hpp */,
 			);
 			path = geometry_library;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF335EEB1EABC79D0087F261 /* main.cpp in Sources */,
+				CF335EFF1EABCC840087F261 /* polygon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +286,7 @@
 				CF335EF01EABC79D0087F261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
