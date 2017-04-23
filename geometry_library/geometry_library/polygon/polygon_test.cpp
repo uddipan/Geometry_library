@@ -10,6 +10,8 @@
 
 #include "gtest/gtest.h"
 
+namespace geom_lib {
+
 TEST(PolygonTest, AreaPointTest) {
   Polygon polygon;
   EXPECT_EQ(polygon.Area(), 0.0);
@@ -87,3 +89,5 @@ TEST(PolygonTest, PointInPolyGonTestFourEdges) {
       Vec2(double(rand() % 1001) / 1000.0, double(rand() % 1001) / 1000.0);
   EXPECT_TRUE(polygon.IsInside(random_point));
 }
+
+}  // namespace geom_lib

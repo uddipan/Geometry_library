@@ -14,6 +14,8 @@
 
 #include "../include/Geomheader.h"
 
+namespace geom_lib {
+
 class Polygon {
  public:
   Polygon();
@@ -29,5 +31,7 @@ class Polygon {
   // Points on the polygon in order
   std::vector<Vec2> points_;
 };
+
+}  // namespace geom_lib
 
 #endif  // polygon_hpp
