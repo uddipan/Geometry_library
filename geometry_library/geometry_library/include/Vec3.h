@@ -12,8 +12,6 @@
 #ifndef __VEC3_INCLUDED__
 #define __VEC3_INCLUDED__
 
-#include "Geomheader.h"
-
 struct Vec3 {
     inline Vec3() { x = 0; y = 0; z = 0; }
     inline Vec3( double a, double b, double c ) { x = a; y = b; z = c; }

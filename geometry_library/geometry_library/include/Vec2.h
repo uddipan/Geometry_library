@@ -11,8 +11,6 @@
 #ifndef __VEC2_INCLUDED__
 #define __VEC2_INCLUDED__
 
-#include "Geomheader.h"
-
 struct Vec2 {
   inline Vec2() {
     x = 0;

@@ -27,6 +27,8 @@ int main(int argc, char** argv) {
   glutMainLoop();*/
 
   // Testing framework
+  // use --gtest_filter to run specific tests
+  // e.g. gtest_filter=Polygon* in env variable option
   ::testing::InitGoogleTest(&argc, argv);
   return RUN_ALL_TESTS();
 }

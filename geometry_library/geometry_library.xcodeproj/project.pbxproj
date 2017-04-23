@@ -11,9 +11,9 @@
 		CF335EF51EABC7B80087F261 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF21EABC7B80087F261 /* Cocoa.framework */; };
 		CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF31EABC7B80087F261 /* GLUT.framework */; };
 		CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF41EABC7B80087F261 /* OpenGL.framework */; };
-		CF335EFF1EABCC840087F261 /* polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335EFD1EABCC840087F261 /* polygon.cpp */; };
-		CF335F0B1EABD92E0087F261 /* polygon_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F0A1EABD92E0087F261 /* polygon_test.cpp */; };
-		CF335F131EABDFA70087F261 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335F121EABDFA70087F261 /* gtest.framework */; };
+		CF335F151EAC7FE80087F261 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335F121EABDFA70087F261 /* gtest.framework */; };
+		CF335F191EAD0C000087F261 /* polygon_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F161EAD0C000087F261 /* polygon_test.cpp */; };
+		CF335F1A1EAD0C000087F261 /* polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F171EAD0C000087F261 /* polygon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,19 +37,19 @@
 		CF335EF91EABC80D0087F261 /* Geomheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geomheader.h; sourceTree = "<group>"; };
 		CF335EFA1EABC80D0087F261 /* Vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec2.h; sourceTree = "<group>"; };
 		CF335EFB1EABC80D0087F261 /* Vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec3.h; sourceTree = "<group>"; };
-		CF335EFD1EABCC840087F261 /* polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon.cpp; sourceTree = "<group>"; };
-		CF335EFE1EABCC840087F261 /* polygon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = polygon.hpp; sourceTree = "<group>"; };
 		CF335F011EABD8960087F261 /* .localized */ = {isa = PBXFileReference; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
 		CF335F031EABD8960087F261 /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 		CF335F041EABD8960087F261 /* Practical_Electronics_for_Inventors.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Practical_Electronics_for_Inventors.pdf; sourceTree = "<group>"; };
 		CF335F051EABD8960087F261 /* uddipanmukherjee.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = uddipanmukherjee.p12; sourceTree = "<group>"; };
 		CF335F061EABD8E20087F261 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../../Library/Frameworks/gtest.framework; sourceTree = "<group>"; };
-		CF335F0A1EABD92E0087F261 /* polygon_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon_test.cpp; sourceTree = "<group>"; };
 		CF335F0D1EABDEFF0087F261 /* .localized */ = {isa = PBXFileReference; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
 		CF335F0F1EABDEFF0087F261 /* test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
 		CF335F101EABDEFF0087F261 /* Practical_Electronics_for_Inventors.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Practical_Electronics_for_Inventors.pdf; sourceTree = "<group>"; };
 		CF335F111EABDEFF0087F261 /* uddipanmukherjee.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = uddipanmukherjee.p12; sourceTree = "<group>"; };
 		CF335F121EABDFA70087F261 /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../gtest/gtest.framework; sourceTree = "<group>"; };
+		CF335F161EAD0C000087F261 /* polygon_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = polygon_test.cpp; path = polygon/polygon_test.cpp; sourceTree = "<group>"; };
+		CF335F171EAD0C000087F261 /* polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = polygon.cpp; path = polygon/polygon.cpp; sourceTree = "<group>"; };
+		CF335F181EAD0C000087F261 /* polygon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = polygon.hpp; path = polygon/polygon.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF335F131EABDFA70087F261 /* gtest.framework in Frameworks */,
+				CF335F151EAC7FE80087F261 /* gtest.framework in Frameworks */,
 				CF335EF51EABC7B80087F261 /* Cocoa.framework in Frameworks */,
 				CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */,
 				CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */,
@@ -87,11 +87,11 @@
 		CF335EE91EABC79D0087F261 /* geometry_library */ = {
 			isa = PBXGroup;
 			children = (
+				CF335F161EAD0C000087F261 /* polygon_test.cpp */,
+				CF335F171EAD0C000087F261 /* polygon.cpp */,
+				CF335F181EAD0C000087F261 /* polygon.hpp */,
 				CF335EF81EABC80D0087F261 /* include */,
 				CF335EEA1EABC79D0087F261 /* main.cpp */,
-				CF335EFD1EABCC840087F261 /* polygon.cpp */,
-				CF335EFE1EABCC840087F261 /* polygon.hpp */,
-				CF335F0A1EABD92E0087F261 /* polygon_test.cpp */,
 			);
 			path = geometry_library;
 			sourceTree = "<group>";
@@ -217,9 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF335F191EAD0C000087F261 /* polygon_test.cpp in Sources */,
 				CF335EEB1EABC79D0087F261 /* main.cpp in Sources */,
-				CF335F0B1EABD92E0087F261 /* polygon_test.cpp in Sources */,
-				CF335EFF1EABCC840087F261 /* polygon.cpp in Sources */,
+				CF335F1A1EAD0C000087F261 /* polygon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +323,7 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = /academics/gtest/googletest/googletest/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -338,6 +339,7 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = /academics/gtest/googletest/googletest/include;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

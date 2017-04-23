@@ -12,15 +12,18 @@
 #include <stdio.h>
 #include <vector>
 
-#include "include/Geomheader.h"
+#include "../include/Geomheader.h"
 
 class Polygon {
  public:
   Polygon();
   Polygon(std::vector<Vec2> points);
 
-  // Calculate area
+  // Calculate area (negative if points are clockwise)
   double Area();
+
+  // Checks if the specified point is inside the polygon
+  bool IsInside(const Vec2 point);
 
  private:
   // Points on the polygon in order
