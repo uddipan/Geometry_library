@@ -16,7 +16,6 @@ Methods implemented:
      arg = 0 (GiftWrap) ; arg = 1 (QuickHUll); arg = 2 (Graham scan)
 
 
-
 Miscellaneous Notes:
 
 gTest:
