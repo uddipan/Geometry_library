@@ -4,9 +4,16 @@ Simple C++ header only library for computational geometry problems.
 Methods implemented:
 
 1. POLYGON (include: polygon.hpp)
-  -- Method : Area 
+  -- Method : polygon.Area(), polygon.IsInside(Vec2 point)
      Computes area of a polygon with points in order
 
+2.CONVEX HULL (include: ConvexHull.hpp)
+  -- Methods: QuickHull, GrahamScan, Giftwrap
+
+  -- Invocation: std::vector<Vec2> convex_hull = ConvHull(std::vector<Vec2> points)
+     OR
+     std::vector<Vec2> convex_hull = ConvHull(std::vector<Vec2> points, arg)
+     arg = 0 (GiftWrap) ; arg = 1 (QuickHUll); arg = 2 (Graham scan)
 
 
 

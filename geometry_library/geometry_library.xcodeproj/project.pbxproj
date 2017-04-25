@@ -11,9 +11,10 @@
 		CF335EF51EABC7B80087F261 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF21EABC7B80087F261 /* Cocoa.framework */; };
 		CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF31EABC7B80087F261 /* GLUT.framework */; };
 		CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335EF41EABC7B80087F261 /* OpenGL.framework */; };
-		CF335F151EAC7FE80087F261 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335F121EABDFA70087F261 /* gtest.framework */; };
 		CF335F1F1EAD1DA70087F261 /* polygon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F1C1EAD1DA70087F261 /* polygon.cpp */; };
 		CF335F201EAD1DA70087F261 /* polygon_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F1E1EAD1DA70087F261 /* polygon_test.cpp */; };
+		CF335F241EAEDE570087F261 /* ConvexHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F221EAEDE570087F261 /* ConvexHull.cpp */; };
+		CF335F251EAEE3D70087F261 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335F121EABDFA70087F261 /* gtest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +51,8 @@
 		CF335F1C1EAD1DA70087F261 /* polygon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon.cpp; sourceTree = "<group>"; };
 		CF335F1D1EAD1DA70087F261 /* polygon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = polygon.hpp; sourceTree = "<group>"; };
 		CF335F1E1EAD1DA70087F261 /* polygon_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = polygon_test.cpp; sourceTree = "<group>"; };
+		CF335F221EAEDE570087F261 /* ConvexHull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvexHull.cpp; sourceTree = "<group>"; };
+		CF335F231EAEDE570087F261 /* ConvexHull.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConvexHull.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF335F151EAC7FE80087F261 /* gtest.framework in Frameworks */,
+				CF335F251EAEE3D70087F261 /* gtest.framework in Frameworks */,
 				CF335EF51EABC7B80087F261 /* Cocoa.framework in Frameworks */,
 				CF335EF61EABC7B80087F261 /* GLUT.framework in Frameworks */,
 				CF335EF71EABC7B80087F261 /* OpenGL.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		CF335EE91EABC79D0087F261 /* geometry_library */ = {
 			isa = PBXGroup;
 			children = (
+				CF335F211EAEDE570087F261 /* ConvexHull */,
 				CF335F1B1EAD1DA70087F261 /* polygon */,
 				CF335EF81EABC80D0087F261 /* include */,
 				CF335EEA1EABC79D0087F261 /* main.cpp */,
@@ -168,6 +172,15 @@
 			path = polygon;
 			sourceTree = "<group>";
 		};
+		CF335F211EAEDE570087F261 /* ConvexHull */ = {
+			isa = PBXGroup;
+			children = (
+				CF335F221EAEDE570087F261 /* ConvexHull.cpp */,
+				CF335F231EAEDE570087F261 /* ConvexHull.hpp */,
+			);
+			path = ConvexHull;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +241,7 @@
 				CF335F1F1EAD1DA70087F261 /* polygon.cpp in Sources */,
 				CF335F201EAD1DA70087F261 /* polygon_test.cpp in Sources */,
 				CF335EEB1EABC79D0087F261 /* main.cpp in Sources */,
+				CF335F241EAEDE570087F261 /* ConvexHull.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +338,7 @@
 		CF335EEF1EABC79D0087F261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,7 +353,7 @@
 		CF335EF01EABC79D0087F261 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
