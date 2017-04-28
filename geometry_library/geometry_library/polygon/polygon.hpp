@@ -22,10 +22,14 @@ class Polygon {
   Polygon(std::vector<Vec2> points);
 
   // Calculate area (negative if points are clockwise)
-  double Area();
+  double Area() const;
 
   // Checks if the specified point is inside the polygon
-  bool IsInside(const Vec2 point);
+  bool IsInside(const Vec2 point) const;
+
+  // Checks if the polygon is convex or reflex. The polygon is convex if all of
+  // its angles are convex.Returns true for convex and false otherwise.
+  bool IsConvex() const;
 
  private:
   // Points on the polygon in order
