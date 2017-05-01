@@ -2,4 +2,150 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "geometry_library/ConvexHull/convex_hull_test.cpp"
+            timestampString = "515040454.342493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "IsHullCorrect(std::vector&lt;Vec2&gt;&amp; all_points,std::vector&lt;Vec2&gt;&amp; CHull)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(anonymous namespace)::IsHullCorrect(std::vector&lt;Vec2, std::allocator&lt;Vec2&gt; &gt;&amp;, std::vector&lt;Vec2, std::allocator&lt;Vec2&gt; &gt;&amp;)"
+                  moduleName = "geometry_library"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///academics/geometry_library/geometry_library/geometry_library/ConvexHull/convex_hull_test.cpp"
+                  timestampString = "515040981.959595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(anonymous namespace)::IsHullCorrect(std::vector&lt;Vec2, std::allocator&lt;Vec2&gt; &gt;&amp;, std::vector&lt;Vec2, std::allocator&lt;Vec2&gt; &gt;&amp;)"
+                  moduleName = "geometry_library"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///academics/geometry_library/geometry_library/geometry_library/ConvexHull/convex_hull_test.cpp"
+                  timestampString = "515040981.962994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "287">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "geometry_library/polygon/polygon_test.cpp"
+            timestampString = "515041961.7079"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "TEST(PolygonTest, PointInPolyGonTestFourEdges)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "geom_lib::PolygonTest_PointInPolyGonTestFourEdges_Test::TestBody()"
+                  moduleName = "geometry_library"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///academics/geometry_library/geometry_library/geometry_library/polygon/polygon_test.cpp"
+                  timestampString = "515051132.909595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "geom_lib::PolygonTest_PointInPolyGonTestFourEdges_Test::TestBody()"
+                  moduleName = "geometry_library"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///academics/geometry_library/geometry_library/geometry_library/polygon/polygon_test.cpp"
+                  timestampString = "515051132.913352"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "geometry_library/polygon/polygon_test.cpp"
+            timestampString = "515051305.85888"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "TEST(PolygonTest, PointInPolyGonTestThreeEdges)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "geom_lib::PolygonTest_PointInPolyGonTestThreeEdges_Test::TestBody()"
+                  moduleName = "geometry_library"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///academics/geometry_library/geometry_library/geometry_library/polygon/polygon_test.cpp"
+                  timestampString = "515263063.848658"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2189">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "geom_lib::PolygonTest_PointInPolyGonTestThreeEdges_Test::TestBody()"
+                  moduleName = "geometry_library"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///academics/geometry_library/geometry_library/geometry_library/polygon/polygon_test.cpp"
+                  timestampString = "515263063.853322"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2299">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

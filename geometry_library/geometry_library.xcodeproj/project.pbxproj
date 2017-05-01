@@ -16,6 +16,7 @@
 		CF335F241EAEDE570087F261 /* ConvexHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F221EAEDE570087F261 /* ConvexHull.cpp */; };
 		CF335F251EAEE3D70087F261 /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF335F121EABDFA70087F261 /* gtest.framework */; };
 		CF335F271EB2CFFC0087F261 /* convex_hull_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F261EB2CFFC0087F261 /* convex_hull_test.cpp */; };
+		CF335F291EB64ACA0087F261 /* GeomHeaderTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF335F281EB64ACA0087F261 /* GeomHeaderTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		CF335F221EAEDE570087F261 /* ConvexHull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvexHull.cpp; sourceTree = "<group>"; };
 		CF335F231EAEDE570087F261 /* ConvexHull.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConvexHull.hpp; sourceTree = "<group>"; };
 		CF335F261EB2CFFC0087F261 /* convex_hull_test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convex_hull_test.cpp; sourceTree = "<group>"; };
+		CF335F281EB64ACA0087F261 /* GeomHeaderTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeomHeaderTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				CF335EF91EABC80D0087F261 /* Geomheader.h */,
 				CF335EFA1EABC80D0087F261 /* Vec2.h */,
 				CF335EFB1EABC80D0087F261 /* Vec3.h */,
+				CF335F281EB64ACA0087F261 /* GeomHeaderTest.cpp */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				CF335F1F1EAD1DA70087F261 /* polygon.cpp in Sources */,
 				CF335F201EAD1DA70087F261 /* polygon_test.cpp in Sources */,
+				CF335F291EB64ACA0087F261 /* GeomHeaderTest.cpp in Sources */,
 				CF335EEB1EABC79D0087F261 /* main.cpp in Sources */,
 				CF335F271EB2CFFC0087F261 /* convex_hull_test.cpp in Sources */,
 				CF335F241EAEDE570087F261 /* ConvexHull.cpp in Sources */,

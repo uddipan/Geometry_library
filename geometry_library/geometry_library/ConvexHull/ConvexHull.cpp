@@ -11,23 +11,12 @@
 
 namespace {
 
-// Returns the distance of a line AB from a point P
-double PointDistanceFromLine(const Vec2 &A, const Vec2 &B, const Vec2 &P) {
-  return ((B - A) ^ (B - P)) / Length(B - A);
-}
-
-// Compare 2 floating point numbers. Returns true if the numbers are equal with
-// a tolerance, false otherwise.
-bool isConsideredSame(const double a, const double b) {
-  return std::abs(a - b) <= __DBL_EPSILON__;
-}
-
 struct AngleCompare {
   Vec2 ref;
   AngleCompare(Vec2 ref) { this->ref = ref; }
   bool operator()(Vec2 A, Vec2 B) {
     double angle = (A - ref) ^ (B - ref);
-    if (isConsideredSame(angle, 0.0)) {
+    if (geom_lib::isConsideredSame(angle, 0.0)) {
       return LengthSquared(A - ref) < LengthSquared(B - ref);
     }
     return angle > 0.0;

@@ -78,7 +78,7 @@ TEST(PolygonTest, PointInPolyGonTestFourEdges) {
   EXPECT_TRUE(Quadrilateral.IsInside(Vec2(0, 0)));
   EXPECT_TRUE(Quadrilateral.IsInside(Vec2(1, 0)));
   EXPECT_TRUE(Quadrilateral.IsInside(Vec2(1, 1)));
-  EXPECT_TRUE(Quadrilateral.IsInside(Vec2(1, 0)));
+  EXPECT_TRUE(Quadrilateral.IsInside(Vec2(0, 1)));
   EXPECT_TRUE(Quadrilateral.IsInside(Vec2(0.5, 0.5)));
   EXPECT_TRUE(Quadrilateral.IsInside(Vec2(0.5, 0.2)));
   EXPECT_FALSE(Quadrilateral.IsInside(Vec2(1, 2)));

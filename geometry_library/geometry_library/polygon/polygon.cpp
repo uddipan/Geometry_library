@@ -24,10 +24,22 @@ double Polygon::Area() const {
 }
 
 bool Polygon::IsInside(const Vec2 point) const {
-  int sgn = (points_[0] - point) * (points_[1] - points_[0]) > 0 ? 1 : -1;
+  if (points_.size() < 2) {
+    return false;
+  }
+
+  int sgn = ((point - points_[0]) ^ (points_[1] - points_[0])) > 0 ? 1 : -1;
   for (unsigned u = 0; u < points_.size(); u++) {
     Vec2 A = points_[u], B = points_[(u + 1) % points_.size()];
-    if (((A - point) * (B - A)) * sgn < 0) return false;
+
+    // If the point is very close to this edge consider it inside.
+    if (isConsideredSame(PointDistanceFromLine(A, B, point), 0.0)) {
+      return true;
+    }
+
+    if (((point - A) ^ (B - A)) * sgn < 0) {
+      return false;
+    }
   }
   return true;
 }
